@@ -21,7 +21,7 @@ target_port = hash % nb_ports;
 ```bash
 mkdir build/
 cd build/
-cmake ..
+../configure
 make
 sudo make install
 ```
@@ -29,7 +29,7 @@ sudo make install
 ## Test
 
 ```bash
-make test
+test/symhash_test
 ```
 
 Got output like this.
@@ -50,7 +50,7 @@ Total Test time (real) =   0.00 sec
 ## Benchmark
 
 ```bash
-make bench
+bench/symhash_bench
 ```
 
 Got output like this
