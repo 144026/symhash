@@ -1,5 +1,10 @@
 # libsymhash
 
+## Prerequisites
+
+- [Google Test](https://github.com/google/googletest)
+- [Google Benchmark](https://github.com/google/benchmark)
+
 ## Usage
 
 ```c
